@@ -1,0 +1,58 @@
+h1{
+	font-size: 50px;
+	color: lightgreen;
+	background-color: darkblue;
+	margin: 20px;
+	text-align: center;
+	border: double darkblue;
+}
+h2{
+	color: lightgreen;
+	text-align: center;
+	font-size: 45px;
+	background-color: darkgreen;
+	border: double darkgreen;
+}
+img{
+	width: 100px;
+	margin: 50px;
+}
+.text1{
+	float: left;
+	border: dotted darkgreen;
+	height: 200px;
+	width: 200px;
+}
+.text2{
+	float: right;
+	border: dotted darkgreen;
+	height: 100px;
+	width: 100px;
+}
+.text3{
+	float: right;
+	border: dotted darkgreen;
+	height: 100px;
+	width: 100px;
+}
+html{
+	background-color: lightblue;
+}
+body{
+	font-size: 20px;
+}
+p{border: double darkgreen;
+}
+.text4{
+	float: right;
+	border: dotted darkblue;
+	height: 100px;
+	width: 100px;
+}
+.text6{
+	float: left;
+	border: dotted;
+	height: 100px;
+	width: 100px;
+
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Yuji+Boku&family=Yuji+Mai&display=swap');
+
+
+h1{
+  font-family: "Bree Serif";
+  text-align: center;
+}
+
+h2{
+  text-align: right;
+  font-family:"Yuji Boku";
+  font-size: 30px;
+}
+
+p{
+  font-family: "Yuji Mai";
+  column-count: 3;
+  line-height: 1.5;
+  margin: 50px;
+  text-align: justify;
+  color: white;
+}
+
+.signature{
+    font-family: ;
+}
+
+body{background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,160,29,1) 46%, rgba(69,134,252,1) 100%) }

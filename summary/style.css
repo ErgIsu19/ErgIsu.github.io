@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&family=Supermercado+One&display=swap');
+
+
+h1{
+  font-size: 30px;
+  padding:30 ;
+  border: 5px;
+}
+
+
+
+
+p{
+  background-color: none;
+  font-size: 20px;
+  padding: 20px;
+  display: inline-block;
+  border: 20px;
+  font-family: "Sedgwick Ave";
+}
+
+.barca{
+  width: 500px;
+  float: right;
+  border: 5px solid red;
+
+}
+
+
+
+
+ html{
+  background: linear-gradient(90deg, rgba(180,58,112,0.8799894957983193) 1%, rgba(66,29,253,1) 42%, rgba(69,248,252,1) 100%);
+  font-family: comforter;
+ }

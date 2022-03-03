@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Raleway:wght@200&display=swap');
+
+header {
+  text-align: center;
+}
+h1 {
+  font-family: Raleway;
+}
+h2 {
+  font-family:Dancing Script ;
+}
+.a {
+  padding: 30px;
+  margin: 10px;
+  border: 5px dotted black;
+}
+.a p {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  column-count: 3;
+}
+
+#b {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  margin: 10px;
+  border: 5px dotted black;
+ background: radial-gradient(circle, rgba(66,135,147,1) 7%, rgba(105,121,198,1) 51%, rgba(50,71,159,1) 100%);
+}
+#b p {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d9cdab;
+}
+
+.c {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  background-color: lightblue;
+  height: 320px;
+  margin: 10px;
+  border: 5px dotted black;
+  
+}
+.c p {
+  background: white;
+  padding: 30px;
+  margin: 1px;
+}
+
+#d {
+  height: 300px;
+  margin: 10px;
+  background-color: blue;
+  border: 5px dotted black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  height: 80px;
+  border: 2px solid white;
+}
+footer {
+  display: flex;
+  justify-content: space-evenly;
+   align-items: flex-end;
+  border: 5px dotted black;
+  background-color: darkblue;
+  height: 300px;
+  margin: 10px;
+}
+footer p {
+  background-color: wheat;
+  padding: 10px;
+  margin: 0;
+}
+
+ p {
+  font-family: Raleway;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

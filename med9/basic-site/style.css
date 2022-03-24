@@ -1,0 +1,160 @@
+/*
+*
+*Title:  Basic website abobut Australia;
+*Author: Ergis Isufaj;
+*Date: 17.3.2022;
+*
+*/
+
+/********************* General Styling ************************/
+
+
+
+
+body{
+	margin: 0;
+
+}
+
+
+/* Navigation */
+nav{
+ background: linear-gradient(90deg, rgba(0,228,57,1) 17%, rgba(0,0,0,1) 68%);
+	justify-content: space-between; /* To make the links on the right side and the logo on the left */
+	align-items: center;
+	padding: 30px;
+
+}
+nav img{
+	height: 70px;
+	border-radius: 50%; /*To make the logo round */
+}
+ 
+nav ul{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none; /* It removes the bullet points */
+	font-family: ;
+}
+
+nav ul li a{
+	margin: 20px;
+	padding: 20px;
+	text-decoration: none;  /*It removes the underline */
+	background-color: white;
+	border-radius: 15px	;
+	background-color: darksalmon;
+
+}
+
+nav ul li a:hover{
+     /* Hover changes the elemente if we move the mouse over it */
+      background-color: darkgray;
+      color: white;
+}
+
+/* Header*/
+header{
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image:url(Cars2.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+header h1{
+	font-size: 30px;
+	background-color:rgba(255,255,255,0.7) ;
+}
+/* Main */
+main{
+	padding: 60px;
+	background: linear-gradient(0deg, rgba(56,255,0,1) 22%, rgba(57,32,8,1) 77%);
+}
+main h2{
+	color: white;
+	font-size: 30px;
+}
+main p{
+	background-color: lightsteelblue;
+	padding: 20px;
+}
+/*Section*/
+section{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+section .left{
+	width: 40%;
+	background-color: lightsteelblue;
+	padding: 5px;
+	border-radius: 2px;
+
+}
+
+section .right{
+	width: 60%;
+	background-color: black;
+	padding: 30px;
+	color: white;
+
+}
+/*Footer */
+footer{
+	height: 600px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-image: url(cars2.jpg);
+	background-size: cover;
+	background-position: center;
+
+
+}
+
+footer p{
+	color: white ;
+	background-color: lightgray;
+	border-radius: 45%;
+	padding: 20px;
+}
+footer hover{
+	background-color: black;
+	color: black;
+}
+
+
+
+/******************Page Styling********************/
+
+/* Home Page */
+#home header{
+	background-image:url(Cars.jpg) ;
+}
+
+#home #Cars{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+#home #Cars img{
+	width: 200px;
+  margin: 10px;
+  border: 5px dotted;
+}
+/* Contact Page */
+#contact header{
+	background-image: url(contact.jpg);
+}
+#contact main p{
+	background-color: black;
+	color: white;
+	padding: 100px;
+}

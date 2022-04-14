@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+	margin: 0;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: Roboto;
+}
+
+article{
+         position: relative;
+         width: 700px;
+         display: flex;
+         justify-content: space-between;
+         align-items: flex-start;
+}
+
+
+article .image {
+	width: 700px;
+	height: 190px;
+	background-image: url("tirana.jpg");
+	background-position: center;
+	background-size: cover;
+	padding: 20px;
+}
+
+
+article .text {
+	width: 700px;
+	height: 190px;
+     padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-direction: column;
+	background: linear-gradient(37deg, rgba(35,108,143,1) 24%, rgba(0,0,0,0.9752275910364145) 80%);
+}
+
+
+.text h1{
+	padding: 20px;
+	background-color: white;
+	color: blue;
+	position: absolute;
+	top: 80px;
+	left: 485px;
+	font-size: 35px;
+}
+
+.box {
+	padding: 5px;
+	background-color: darkblue;
+	color: white;
+	position: absolute;
+	top: 72px ;
+	left: 330px;
+	font-size: 35;
+}

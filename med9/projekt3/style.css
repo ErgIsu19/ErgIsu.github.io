@@ -1,0 +1,224 @@
+/*
+*
+*Title: Projekt 3;
+*Author: Ergis Isufaj;
+*Date: 08.05.2022;
+*/
+
+
+/****************** General Styling ********************/
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Libre+Baskerville&family=Oxanium&family=Song+Myung&family=Titillium+Web&display=swap');
+
+body{
+	margin: 0;
+	font-family: Song Myung;
+}
+
+/* Navigation */
+nav {
+    background: linear-gradient(90deg, rgba(75,85,76,0.9752275910364145) 36%, rgba(157,193,198,1) 56%);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
+	position: fixed;
+	width: calc(100% - 60px);
+	z-index: 1;
+}
+
+nav img {
+	height: 70px;
+	border-radius: 50%;
+}
+
+nav ul {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none;
+	font-family: ;
+}
+
+nav ul li a {
+	margin: 20px;
+	padding: 20px;
+	text-decoration: none;
+	background-color: white;
+	border-radius: 15px	;
+	background-color: darksalmon;
+	font-family: Oxanium;
+}
+
+/*Hover changes the element when we move the mouse over it*/
+nav ul li a:hover {
+      background-color: darkgrey;
+      color: white;
+}
+
+header {
+	height: 800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image:url(header.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+header h1 {
+	font-size: 30px;
+	background-color: #b0afa9;
+	padding: 10px;
+	border-radius: 15px;
+	font-family: Libre Baskerville;
+}
+
+#shop {
+	color: white;
+	background: radial-gradient(circle, rgba(226,230,202,1) 0%, rgba(113,113,103,1) 100%);
+	color: black;
+	padding: 60px;
+	font-size: 20px;
+	flex-direction: column;
+}
+
+#shop p {
+	padding: 20px;
+}
+
+/*Section*/
+section {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+section .left {
+	width: 50%;
+	background-color: #a8a89e;
+	color: black;
+	padding: 30px;
+}
+
+section .right {
+	font-size: 20px;
+	width: 50%;
+	background-color: #a19f95;
+	color: black;
+	padding: 30px;
+}
+
+#contact {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 25px;
+	background-color: #73726d;
+	color: black;
+	padding: 30px;
+}
+
+/*Footer*/
+footer {
+	height: 400px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-image: url(footer.jpg);
+	background-position: center;
+	background-size: cover;
+	font-family: Titillium Web;
+}
+
+footer p {
+	background-color: #87877e;
+	padding: 10px;
+	border-radius: 15px;
+	font-size: 20px;
+	color: black;
+}
+
+/*Article*/
+#cars {
+	margin: 0;
+	background-color: #918e7a;
+}
+
+article {
+    position: relative;
+}
+
+
+article .image {
+	margin-top: 30px;
+	width: 300px;
+	height: 170px;
+	background-image: url("background.jpg");
+	background-position: center;
+	background-size: cover;
+	padding: 20px;
+}
+
+
+article .text {
+	margin-bottom: 30px;
+	width: 300px;
+	height: 170px;
+	background-color: white;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+article .mini-header{
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+article .text .mini-header span {
+	margin-right: 10px;
+	font-family: Arvo;
+}
+
+article .text .mini-footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: darkgrey;
+	font-size: 12px;
+	width: 100%;
+}
+
+article .red-box{
+	background-color: red;
+	color: white;
+	padding: 10px;
+	text-transform: uppercase;
+	font-size: 11px;
+	position: absolute;
+	top: 208px;
+	left: 0px;
+}
+
+/*Main*/
+main {
+	margin: 0;
+	background-color: #918e7a;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	min-height: 100vh;
+}
+
+/*Image*/
+.shkodra {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+  	border: solid 6px rebeccapurple;
+  	border-radius: 15px;
+  	margin-bottom: 15px;
+}

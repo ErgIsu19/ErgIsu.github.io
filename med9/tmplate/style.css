@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Josefin+Sans:wght@300&display=swap');
+body{
+    
+     margin: 0;
+}
+
+
+
+nav{
+    background: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
+	height: 8px;
+	border-bottom: 1px solid black;
+
+}
+
+
+nav ul{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none;
+	font-family: ;
+}
+
+nav ul li a{
+	margin: 20px;
+	padding: 20px;
+	text-decoration: none;
+	background-color: white;
+	border-radius: 15px	;
+	color: black;
+}
+
+h1{
+	color: black;
+	font-size: 15px;
+}
+.class1{
+     font-family:Heebo family ;
+}
+.class2{
+	font-family:Josefin Sans ;
+}
+section{
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+}
+article .foto1{
+      width: 204px;
+      height: 169px;
+      background-image: url(summer.jpg);
+      background-position: center;
+      background-size: cover;
+      padding: 20px;
+      position: absolute;
+      top: 80px;
+      left: 0px;
+      right: 0px;
+}
+
+article .black-box{
+       background-color: black;
+       color: white;
+       padding: 10px;
+       font-size: 10px;
+       text-transform: uppercase;
+       position: relative;
+       top: 0px;
+       left: 0px;
+}
